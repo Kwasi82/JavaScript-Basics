@@ -17,7 +17,7 @@ console.log(completeAge);
 */
 
 // More on variables
-
+/*
 var name = 'Kwasi';
 var age = 35;
 
@@ -37,3 +37,5 @@ var yourLastName = prompt('What is your last name?');
 console.log('Hiya! ' + name + ' ' + yourLastName);
 
 alert('Hi again ' + name + ' ' + yourLastName);
+
+*/
