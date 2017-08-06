@@ -35,3 +35,5 @@ console.log(name + ' is ' + age + ' years old. He has ' + hairColor + ' hair col
 
 var yourLastName = prompt('What is your last name?');
 console.log('Hiya! ' + name + ' ' + yourLastName);
+
+alert('Hi again ' + name + ' ' + yourLastName);
