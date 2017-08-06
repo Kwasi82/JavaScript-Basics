@@ -32,3 +32,6 @@ hairColor = 'black';
 ownsCar = false;
 
 console.log(name + ' is ' + age + ' years old. He has ' + hairColor + ' hair color. Does he own a car? ' + ownsCar); 
+
+var yourLastName = prompt('What is your last name?');
+console.log('Hiya! ' + name + ' ' + yourLastName);
