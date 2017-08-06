@@ -41,7 +41,7 @@ alert('Hi again ' + name + ' ' + yourLastName);
 */
 
 // Looking at operators
-
+/*
 var yearToday = 2017;
 var yearOfBirth = yearToday - 35;
 
@@ -60,3 +60,16 @@ ageSam = ageSam * 3;
 
 console.log(ageKojo);
 console.log(ageSam);
+*/
+
+// Understanding if / else statements
+
+var name = 'Adu';
+var age = 35;
+var ownsCar = false;
+
+if (ownsCar === false){
+    console.log(name + ' does not own a car.');
+} else {
+    console.log(name + ' has a car. Yay!');
+}
