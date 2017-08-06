@@ -39,3 +39,10 @@ console.log('Hiya! ' + name + ' ' + yourLastName);
 alert('Hi again ' + name + ' ' + yourLastName);
 
 */
+
+// Looking at operators
+
+var yearToday = 2017;
+var yearOfBirth = yearToday - 35;
+
+console.log('You were born in ' + yearOfBirth + '.');
