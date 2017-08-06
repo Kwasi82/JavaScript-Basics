@@ -56,6 +56,7 @@ ageKojo = ageSam = (3 + 5) * 4 - 6;
 
 ageKojo++;
 ageSam *= 3;
+ageSam = ageSam * 3;
 
 console.log(ageKojo);
 console.log(ageSam);
