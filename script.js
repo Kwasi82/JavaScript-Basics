@@ -52,6 +52,6 @@ console.log('You were born in ' + yearOfBirth + '.');
 var ageKojo = 29;
 var ageSam = 30;
 
-ageKojo = (3 + 5) * 4 - 6;
+ageKojo = ageSam = (3 + 5) * 4 - 6;
 
 console.log(ageKojo);
