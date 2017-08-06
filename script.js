@@ -73,3 +73,7 @@ if (ownsCar === false){
 } else {
     console.log(name + ' has a car. Yay!');
 }
+
+if ( 35 == '35' ) {
+    console.log('Show that types are true based on operator');
+}
