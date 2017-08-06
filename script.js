@@ -22,3 +22,13 @@ var name = 'Kwasi';
 var age = 35;
 
 console.log(name + age);
+
+var height, hairColor, ownsCar;
+
+console.log(height);
+
+height = '170 cm';
+hairColor = 'black';
+ownsCar = false;
+
+console.log(name + ' is ' + age + ' years old. He has ' + hairColor + ' hair color. Does he own a car? ' + ownsCar); 
