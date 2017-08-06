@@ -45,4 +45,6 @@ alert('Hi again ' + name + ' ' + yourLastName);
 var yearToday = 2017;
 var yearOfBirth = yearToday - 35;
 
+yearOfBirth = yearToday - 25 * 2;
+
 console.log('You were born in ' + yearOfBirth + '.');
