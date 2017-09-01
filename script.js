@@ -120,3 +120,8 @@ var kwadwoHeight = 180;
 var kwasiScore = kwasiHeight + (5 * kwasiAge);
 var kwadwoScore = kwadwoHeight + (5 * kwadwoAge);
 
+if (kwasiScore > kwadwoScore) {
+    console.log("Kwasi is the winner!");
+} else {
+    console.log("Kwadwo is the winner!");
+}
