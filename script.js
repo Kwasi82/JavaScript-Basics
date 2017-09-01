@@ -83,3 +83,10 @@ if ( 35 == '35' ) {
 
 // Boolean logic and switch
 
+var age = 15;
+
+if (age < 20) {
+    console.log('Kofi is a teenager');
+} else {
+    console.log('Kofi is a man');
+}
