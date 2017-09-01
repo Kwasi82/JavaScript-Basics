@@ -127,6 +127,8 @@ if (kwasiScore > kwadwoScore && kwasiScore > jimScore) {
     console.log("Kwasi is the winner!");
 } else if (kwadwoScore > kwasiScore && kwadwoScore > jimScore) {
     console.log("Kwadwo is the winner!");
-} else {
+} else if (jimScore > kwadwoScore && jimScore > kwasiScore){
     console.log("Jim is the winner");
+} else {
+    console.log("It is a draw");
 }
