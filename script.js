@@ -81,3 +81,5 @@ if ( 35 == '35' ) {
 
 */
 
+// Boolean logic and switch
+
