@@ -113,7 +113,7 @@ switch (exercise) {
 
 var kwasiAge = 35;
 var kwadwoAge = 30;
-var jimAge = 20;
+var jimAge = 40;
 
 var kwasiHeight = 170;
 var kwadwoHeight = 180;
