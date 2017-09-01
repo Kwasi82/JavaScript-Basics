@@ -82,7 +82,7 @@ if ( 35 == '35' ) {
 */
 
 // Boolean logic and switch
-
+/*
 var age = 25;
 
 if (age < 20) {
@@ -108,3 +108,6 @@ switch (exercise) {
     default:
         console.log("Must be some different sort of exercise");
 }
+
+*/
+
