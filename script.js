@@ -87,6 +87,8 @@ var age = 25;
 
 if (age < 20) {
     console.log('Kofi is a teenager.');
+} else if (age >= 20 && age < 30) {
+    console.log('Kofi is a young man.');
 } else {
     console.log('Kofi is a man.');
 }
