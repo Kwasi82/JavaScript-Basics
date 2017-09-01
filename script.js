@@ -124,11 +124,11 @@ var kwadwoScore = kwadwoHeight + (5 * kwadwoAge);
 var jimScore = jimHeight + (5 * jimAge);
 
 if (kwasiScore > kwadwoScore && kwasiScore > jimScore) {
-    console.log("Kwasi is the winner!");
+    console.log("Kwasi is the winner with " + kwasiScore + " points!");
 } else if (kwadwoScore > kwasiScore && kwadwoScore > jimScore) {
-    console.log("Kwadwo is the winner!");
+    console.log("Kwadwo is the winner with " + kwadwoScore + " points!");
 } else if (jimScore > kwadwoScore && jimScore > kwasiScore){
-    console.log("Jim is the winner");
+    console.log("Jim is the winner with " + jimScore + " points!");
 } else {
     console.log("It is a draw");
 }
