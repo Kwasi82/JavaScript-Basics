@@ -92,3 +92,19 @@ if (age < 20) {
 } else {
     console.log('Kofi is a man.');
 }
+
+var exercise = "free weights";
+
+switch (exercise) {
+    case "free weights":
+        console.log("Great strength exercise");
+        break;
+    case "swimming":
+        console.log("Superb total body exercise");
+        break;
+    case "Treadmill":
+        console.log("Great cardio exercise");
+        break;
+    default:
+        console.log("Must be some different sort of exercise");
+}
