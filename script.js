@@ -123,8 +123,10 @@ var kwasiScore = kwasiHeight + (5 * kwasiAge);
 var kwadwoScore = kwadwoHeight + (5 * kwadwoAge);
 var jimScore = jimHeight + (5 * jimAge);
 
-if (kwasiScore > kwadwoScore) {
+if (kwasiScore > kwadwoScore && kwasiScore > jimScore) {
     console.log("Kwasi is the winner!");
-} else {
+} else if (kwadwoScore > kwasiScore && kwadwoScore > jimScore) {
     console.log("Kwadwo is the winner!");
+} else {
+    console.log("Jim is the winner");
 }
