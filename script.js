@@ -113,12 +113,15 @@ switch (exercise) {
 
 var kwasiAge = 35;
 var kwadwoAge = 30;
+var jimAge = 20;
 
 var kwasiHeight = 170;
 var kwadwoHeight = 180;
+var jimHeight = 175;
 
 var kwasiScore = kwasiHeight + (5 * kwasiAge);
 var kwadwoScore = kwadwoHeight + (5 * kwadwoAge);
+var jimScore = jimHeight + (5 * jimAge);
 
 if (kwasiScore > kwadwoScore) {
     console.log("Kwasi is the winner!");
