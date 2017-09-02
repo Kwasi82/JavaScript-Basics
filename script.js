@@ -139,6 +139,7 @@ if (kwasiScore > kwadwoScore && kwasiScore > jimScore) {
 
 // Looking at Functions
 
+/*
 function personAge (yearOfBirth) {
     var age = 2017 - yearOfBirth;
     return age;
@@ -163,3 +164,5 @@ function yearsTilRetire (name, year) {
 yearsTilRetire("Yaw", 1970);
 yearsTilRetire("Akosa", 1999);
 yearsTilRetire("Kofi", 1920);
+*/
+
