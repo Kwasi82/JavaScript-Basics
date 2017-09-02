@@ -205,11 +205,12 @@ if (firstCar.indexOf("Japan") != -1) {
 
 // Objects section
 
-var Mama = {
-    firstName: Mama,
-    lastName: Asiedu,
+var mama = {
+    firstName: "Mama",
+    lastName: "Asiedu",
     birthYear: 1979,
     countryResident: "Ghana",
     isMarried: false
 };
 
+console.log(mama);
