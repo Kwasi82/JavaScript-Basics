@@ -218,5 +218,6 @@ var mama = {
 console.log(mama.firstName);
 console.log(mama["firstName"]);
 
+// Inserting the variable in square bracket to retrieve value of countryResident key
 var a = "countryResident";
 console.log(mama[a]);
