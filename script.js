@@ -185,3 +185,7 @@ firstCar.unshift("Asia");
 //removes the car color from the end of the array
 firstCar.pop();
 console.log(firstCar);
+
+//removes the region from the front of the array
+firstCar.shift();
+console.log(firstCar);
