@@ -166,3 +166,5 @@ yearsTilRetire("Akosa", 1999);
 yearsTilRetire("Kofi", 1920);
 */
 
+var cars = ["Toyota", "Buick", "Chevy"];
+var carTypes = new Array("SUV", "Saloon", "Truck"); 
