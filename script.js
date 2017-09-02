@@ -202,3 +202,14 @@ if (firstCar.indexOf("Japan") != -1) {
     console.log("Car is not from Japan");
 }
 */
+
+// Objects section
+
+var Mama = {
+    firstName: Mama,
+    lastName: Asiedu,
+    birthYear: 1979,
+    countryResident: "Ghana",
+    isMarried: false
+};
+
