@@ -254,3 +254,5 @@ var mamasayaa = {
         return 2017 - birthYear;
     }
 };
+
+console.log(mamasayaa.pets);
