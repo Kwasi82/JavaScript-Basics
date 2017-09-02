@@ -250,12 +250,15 @@ var mamasayaa = {
     countryResident: "Ghana",
     isMarried: false,
     pets: ["Mister wiskers", "Fluffy"],
-    calculateAge: function(birthYear) {
-        return 2017 - birthYear;
+    calculateAge: function() {
+        return 2017 - this.birthYear;
     }
 };
 //display pets to the console
 console.log(mamasayaa.pets);
 
 //display age using the calculate age method
-console.log(mamasayaa.calculateAge(1960));
+//console.log(mamasayaa.calculateAge(1960));
+
+//display age via the age in the object
+console.log(mamasayaa.calculateAge());
