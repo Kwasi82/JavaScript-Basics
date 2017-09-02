@@ -143,3 +143,6 @@ function personAge (yearOfBirth) {
     var age = 2017 - yearOfBirth;
     return age;
 }
+
+var kwameAge = personAge(1982);
+var adwoaAge = personAge(1984);
