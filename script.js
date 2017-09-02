@@ -262,3 +262,8 @@ console.log(mamasayaa.pets);
 
 //display age via the age in the object
 console.log(mamasayaa.calculateAge());
+
+//Assign age to 'mamasayaa' object
+var age = mamasayaa.calculateAge();
+mamasayaa.age = age;
+console.log(mamasayaa);
