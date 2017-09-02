@@ -178,3 +178,6 @@ var firstCar = ["Toyota", "Japan", 1978, true]
 
 //adds the car color to the end of the array
 firstCar.push("black");
+
+//adds the region of the world to the beginning of th array
+firstCar.unshift("Asia");
