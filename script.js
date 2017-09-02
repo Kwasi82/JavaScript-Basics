@@ -162,3 +162,4 @@ function yearsTilRetire (name, year) {
 
 yearsTilRetire("Yaw", 1970);
 yearsTilRetire("Akosa", 1999);
+yearsTilRetire("Kofi", 1920);
