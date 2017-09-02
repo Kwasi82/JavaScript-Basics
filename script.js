@@ -206,6 +206,7 @@ if (firstCar.indexOf("Japan") != -1) {
 // Objects section
 
 // Creating an object literal
+/*
 var mama = {
     firstName: "Mama",
     lastName: "Asiedu",
@@ -237,4 +238,8 @@ yaw.countryResident = "Ghana";
 yaw["isMarried"] = true;
 
 console.log(yaw);
+
+*/
+
+// Objects and methods
 
