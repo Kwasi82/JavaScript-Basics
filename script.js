@@ -166,6 +166,8 @@ yearsTilRetire("Akosa", 1999);
 yearsTilRetire("Kofi", 1920);
 */
 
+// Arrays section
+/*
 var cars = ["Toyota", "Buick", "Chevy"];
 var carTypes = new Array("SUV", "Saloon", "Truck"); 
 
@@ -199,3 +201,4 @@ if (firstCar.indexOf("Japan") != -1) {
 } else {
     console.log("Car is not from Japan");
 }
+*/
