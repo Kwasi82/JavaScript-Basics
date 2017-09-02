@@ -243,3 +243,10 @@ console.log(yaw);
 
 // Objects and methods
 
+var mamasayaa = {
+    firstName: "Mama-Sayaa",
+    lastName: "Baffour",
+    birthYear: 1985,
+    countryResident: "Ghana",
+    isMarried: false
+};
