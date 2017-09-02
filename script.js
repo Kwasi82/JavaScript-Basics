@@ -205,6 +205,7 @@ if (firstCar.indexOf("Japan") != -1) {
 
 // Objects section
 
+// Creating an object literal
 var mama = {
     firstName: "Mama",
     lastName: "Asiedu",
@@ -213,5 +214,7 @@ var mama = {
     isMarried: false
 };
 
+// Logging to the console using first dot notation and then square brackets
 console.log(mama.firstName);
 console.log(mama["firstName"]);
+
