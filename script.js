@@ -192,3 +192,10 @@ console.log(firstCar);
 
 //this give the index number of the selected element in the array
 firstCar.indexOf("Japan");
+
+//check if the index value returns -1. If it is -1, it means the element is not in the array
+if (firstCar.indexOf("Japan") != -1) {
+    console.log("This car is from Japan");
+} else {
+    console.log("Car is not from Japan");
+}
