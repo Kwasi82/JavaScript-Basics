@@ -227,3 +227,13 @@ mama.lastName = "Yeaboah";
 mama["birthYear"] = 1989;
 
 console.log(mama);
+
+// This is a different way to declare an object
+var yaw = new Object();
+yaw["firstName"] = "Yaw";
+yaw["lastName"] = "Ofori";
+yaw.birthYear = 1983;
+yaw.countryResident = "Ghana";
+yaw["isMarried"] = true;
+
+
