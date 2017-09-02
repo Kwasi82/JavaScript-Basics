@@ -241,8 +241,12 @@ console.log(yaw);
 
 */
 
+
+
 // Objects and methods
 
+/*
+//First version of method
 var mamasayaa = {
     firstName: "Mama-Sayaa",
     lastName: "Baffour",
@@ -267,3 +271,5 @@ console.log(mamasayaa.calculateAge());
 var age = mamasayaa.calculateAge();
 mamasayaa.age = age;
 console.log(mamasayaa);
+
+*/
