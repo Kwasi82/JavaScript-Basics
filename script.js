@@ -112,6 +112,7 @@ switch (exercise) {
 */
 
 // Testing section
+/*
 var kwasiAge = 35;
 var kwadwoAge = 30;
 var jimAge = 40;
@@ -132,4 +133,7 @@ if (kwasiScore > kwadwoScore && kwasiScore > jimScore) {
     console.log("Jim is the winner with " + jimScore + " points!");
 } else {
     console.log("It is a draw");
-}
+} 
+
+*/
+
