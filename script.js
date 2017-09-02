@@ -111,6 +111,7 @@ switch (exercise) {
 
 */
 
+// Testing section
 var kwasiAge = 35;
 var kwadwoAge = 30;
 var jimAge = 40;
