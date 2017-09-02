@@ -248,7 +248,8 @@ var mamasayaa = {
     lastName: "Baffour",
     birthYear: 1985,
     countryResident: "Ghana",
-    isMarried: false
+    isMarried: false,
+    pets: ["Mister wiskers", "Fluffy"],
     calculateAge: function(birthYear) {
         return 2017 - birthYear;
     }
