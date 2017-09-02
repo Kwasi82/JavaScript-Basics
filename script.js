@@ -146,3 +146,6 @@ function personAge (yearOfBirth) {
 
 var kwameAge = personAge(1982);
 var adwoaAge = personAge(1984);
+
+console.log("Kwame is " + kwameAge + " years old.");
+console.log("Adwoa is " + adwoaAge + " years old.");
