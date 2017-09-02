@@ -168,3 +168,7 @@ yearsTilRetire("Kofi", 1920);
 
 var cars = ["Toyota", "Buick", "Chevy"];
 var carTypes = new Array("SUV", "Saloon", "Truck"); 
+
+console.log(cars[0]);
+cars[1] = "Ram";
+console.log(cars);
