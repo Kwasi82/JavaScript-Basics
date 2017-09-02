@@ -137,3 +137,9 @@ if (kwasiScore > kwadwoScore && kwasiScore > jimScore) {
 
 */
 
+// Looking at Functions
+
+function personAge (yearOfBirth) {
+    var age = 2017 - yearOfBirth;
+    return age;
+}
