@@ -172,3 +172,9 @@ var carTypes = new Array("SUV", "Saloon", "Truck");
 console.log(cars[0]);
 cars[1] = "Ram";
 console.log(cars);
+
+// the array is name of manufacturer, country, year of establishment, import
+var firstCar = ["Toyota", "Japan", 1978, true]
+
+//adds the car color to the end of the array
+firstCar.push("black");
