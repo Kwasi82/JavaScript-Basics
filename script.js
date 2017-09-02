@@ -273,3 +273,16 @@ mamasayaa.age = age;
 console.log(mamasayaa);
 
 */
+
+//Second version of method
+var mamasayaa = {
+    firstName: "Mama-Sayaa",
+    lastName: "Baffour",
+    birthYear: 1985,
+    countryResident: "Ghana",
+    isMarried: false,
+    pets: ["Mister wiskers", "Fluffy"],
+    calculateAge: function() {
+        this.age = 2017 - this.birthYear;
+    }
+};
