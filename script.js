@@ -214,3 +214,4 @@ var mama = {
 };
 
 console.log(mama.firstName);
+console.log(mama["firstName"]);
