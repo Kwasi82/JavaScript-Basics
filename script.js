@@ -221,3 +221,9 @@ console.log(mama["firstName"]);
 // Inserting the variable in square bracket to retrieve value of countryResident key
 var a = "countryResident";
 console.log(mama[a]);
+
+//Changing object values using both notations
+mama.lastName = "Yeaboah";
+mama["birthYear"] = 1989;
+
+console.log(mama);
