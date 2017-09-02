@@ -249,4 +249,7 @@ var mamasayaa = {
     birthYear: 1985,
     countryResident: "Ghana",
     isMarried: false
+    calculateAge: function(birthYear) {
+        return 2017 - birthYear;
+    }
 };
