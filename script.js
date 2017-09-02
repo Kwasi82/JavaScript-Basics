@@ -156,3 +156,5 @@ function yearsTilRetire (name, year) {
     console.log(name + " will retire in " + retire + " years.");
 }
 
+yearsTilRetire("Yaw", 1970);
+yearsTilRetire("Akosa", 1999);
