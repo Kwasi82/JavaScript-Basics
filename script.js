@@ -286,3 +286,5 @@ var mamasayaa = {
         this.age = 2017 - this.birthYear;
     }
 };
+
+console.log(mamasayaa);
