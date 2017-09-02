@@ -152,7 +152,7 @@ var adwoaAge = personAge(1984);
 
 function yearsTilRetire (name, year) {
     var age = personAge(year);
-    var retire = 60 - year;
+    var retire = 60 - age;
     console.log(name + " will retire in " + retire + " years.");
 }
 
