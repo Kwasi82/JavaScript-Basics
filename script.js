@@ -254,5 +254,8 @@ var mamasayaa = {
         return 2017 - birthYear;
     }
 };
-
+//display pets to the console
 console.log(mamasayaa.pets);
+
+//display age using the calculate age method
+console.log(mamasayaa.calculateAge(1960));
