@@ -181,3 +181,7 @@ firstCar.push("black");
 
 //adds the region of the world to the beginning of th array
 firstCar.unshift("Asia");
+
+//removes the car color from the end of the array
+firstCar.pop();
+console.log(firstCar);
