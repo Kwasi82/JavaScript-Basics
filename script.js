@@ -213,4 +213,4 @@ var mama = {
     isMarried: false
 };
 
-console.log(mama);
+console.log(mama.firstName);
