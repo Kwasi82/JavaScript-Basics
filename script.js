@@ -149,3 +149,10 @@ var adwoaAge = personAge(1984);
 
 // console.log("Kwame is " + kwameAge + " years old.");
 // console.log("Adwoa is " + adwoaAge + " years old.");
+
+function yearsTilRetire (name, year) {
+    var age = personAge(year);
+    var retire = 60 - year;
+    console.log(name + " will retire in " + retire + " years.");
+}
+
