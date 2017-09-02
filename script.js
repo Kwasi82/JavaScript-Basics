@@ -236,4 +236,5 @@ yaw.birthYear = 1983;
 yaw.countryResident = "Ghana";
 yaw["isMarried"] = true;
 
+console.log(yaw);
 
