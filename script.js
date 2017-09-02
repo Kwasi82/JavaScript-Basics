@@ -218,3 +218,5 @@ var mama = {
 console.log(mama.firstName);
 console.log(mama["firstName"]);
 
+var a = "countryResident";
+console.log(mama[a]);
