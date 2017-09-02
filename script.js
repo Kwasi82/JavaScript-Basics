@@ -189,3 +189,6 @@ console.log(firstCar);
 //removes the region from the front of the array
 firstCar.shift();
 console.log(firstCar);
+
+//this give the index number of the selected element in the array
+firstCar.indexOf("Japan");
