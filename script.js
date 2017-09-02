@@ -153,7 +153,11 @@ var adwoaAge = personAge(1984);
 function yearsTilRetire (name, year) {
     var age = personAge(year);
     var retire = 60 - age;
+    if (retire < 0) {
+        console.log(name + " has already retired.");
+    } else {
     console.log(name + " will retire in " + retire + " years.");
+    }
 }
 
 yearsTilRetire("Yaw", 1970);
