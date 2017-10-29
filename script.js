@@ -83,9 +83,13 @@ if ( 35 == '35' ) {
 
 /* LOOPS */
 
+/*
+
+//FOR loops
+
 for (var i = 0; i < 10; i++) {
     console.log(i);
-}
+} 
 
 var peopleNames = ["Kwasi", "Kofi", "Kwame", "Kwabena", "Yaw"];
 
@@ -95,6 +99,8 @@ for (var i = 0; i < peopleNames.length; i++) {
 
 /* code challenge */
 
+/*
 for (var i = peopleNames.length - 1; i >= 0; i--) {
     console.log(peopleNames[i]);
 }
+*/
