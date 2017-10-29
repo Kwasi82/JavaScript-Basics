@@ -86,3 +86,9 @@ if ( 35 == '35' ) {
 for (var i = 0; i < 10; i++) {
     console.log(i);
 }
+
+var peopleNames = ["Kwasi", "Kofi", "Kwame", "Kwabena", "Yaw"];
+
+for (var i = 0; i < 5; i++) {
+    console.log(peopleNames[i]);
+}
