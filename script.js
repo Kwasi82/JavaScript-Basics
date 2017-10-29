@@ -288,6 +288,7 @@ var mamasayaa = {
 };
 
 console.log(mamasayaa);
+<<<<<<< HEAD
 >>>>>>> origin/master
 =======
 }
@@ -347,3 +348,5 @@ for (var i = 1; i <= 5; i ++) {
     console.log(i);
 }
 =======
+=======
+>>>>>>> origin/master
