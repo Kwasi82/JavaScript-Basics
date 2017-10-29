@@ -114,3 +114,11 @@ while(i < peopleName.length) {
     console.log(peopleName[i]);
     i++;
 }
+
+for (var i = 1; i <= 5; i ++) {
+    console.log(i);
+
+    if (i === 3) {
+        break;
+    }
+}
