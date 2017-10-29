@@ -95,6 +95,6 @@ for (var i = 0; i < peopleNames.length; i++) {
 
 /* code challenge */
 
-for (var i = peopleNames.length; i > -1; i--) {
+for (var i = peopleNames.length - 1; i >= 0; i--) {
     console.log(peopleNames[i]);
 }
