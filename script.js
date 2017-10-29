@@ -105,6 +105,12 @@ for (var i = peopleNames.length - 1; i >= 0; i--) {
 }
 */
 
-//WHILE  loop
+//WHILE  loops
 
 var peopleName = ["Adwoa", "Abena", "Mama", "Mama-See-Waa"];
+
+var i = 0;
+while(i < peopleName.length) {
+    console.log(peopleName[i]);
+    i++;
+}
