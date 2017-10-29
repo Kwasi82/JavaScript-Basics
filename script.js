@@ -83,6 +83,6 @@ if ( 35 == '35' ) {
 
 /* LOOPS */
 
-for (var 1 = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
     console.log(i);
 }
