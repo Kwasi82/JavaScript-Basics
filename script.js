@@ -81,58 +81,6 @@ if ( 35 == '35' ) {
 
 */
 
-<<<<<<< HEAD
-/* LOOPS */
-
-/*
-
-//FOR loops
-
-for (var i = 0; i < 10; i++) {
-    console.log(i);
-} 
-
-var peopleNames = ["Kwasi", "Kofi", "Kwame", "Kwabena", "Yaw"];
-
-for (var i = 0; i < peopleNames.length; i++) {
-    console.log(peopleNames[i]);
-}
-
-/* code challenge */
-
-/*
-for (var i = peopleNames.length - 1; i >= 0; i--) {
-    console.log(peopleNames[i]);
-}
-*/
-
-//WHILE  loops
-
-var peopleName = ["Adwoa", "Abena", "Mama", "Mama-See-Waa"];
-
-var i = 0;
-while(i < peopleName.length) {
-    console.log(peopleName[i]);
-    i++;
-}
-
-for (var i = 1; i <= 5; i ++) {
-    console.log(i);
-
-    if (i === 3) {
-        break;
-    }
-<<<<<<< HEAD
-}
-
-for (var i = 1; i <= 5; i ++) {
-    
-    if (i === 3) {
-        continue;
-    }
-    console.log(i);
-}
-=======
 // Boolean logic and switch
 /*
 var age = 25;
@@ -344,3 +292,58 @@ console.log(mamasayaa);
 =======
 }
 >>>>>>> parent of cd0e81c... Add for loop with a continue statement.
+
+
+
+<<<<<<< HEAD
+/* LOOPS */
+
+/*
+
+//FOR loops
+
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+} 
+
+var peopleNames = ["Kwasi", "Kofi", "Kwame", "Kwabena", "Yaw"];
+
+for (var i = 0; i < peopleNames.length; i++) {
+    console.log(peopleNames[i]);
+}
+
+/* code challenge */
+
+/*
+for (var i = peopleNames.length - 1; i >= 0; i--) {
+    console.log(peopleNames[i]);
+}
+*/
+
+//WHILE  loops
+
+var peopleName = ["Adwoa", "Abena", "Mama", "Mama-See-Waa"];
+
+var i = 0;
+while(i < peopleName.length) {
+    console.log(peopleName[i]);
+    i++;
+}
+
+for (var i = 1; i <= 5; i ++) {
+    console.log(i);
+
+    if (i === 3) {
+        break;
+    }
+<<<<<<< HEAD
+}
+
+for (var i = 1; i <= 5; i ++) {
+    
+    if (i === 3) {
+        continue;
+    }
+    console.log(i);
+}
+=======
