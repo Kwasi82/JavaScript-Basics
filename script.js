@@ -89,6 +89,6 @@ for (var i = 0; i < 10; i++) {
 
 var peopleNames = ["Kwasi", "Kofi", "Kwame", "Kwabena", "Yaw"];
 
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < peopleNames.length; i++) {
     console.log(peopleNames[i]);
 }
