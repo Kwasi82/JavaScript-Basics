@@ -64,6 +64,7 @@ console.log(ageSam);
 
 // Understanding if / else statements
 
+/*
 var name = 'Adu';
 var age = 35;
 var ownsCar = false;
@@ -77,3 +78,5 @@ if (ownsCar === false){
 if ( 35 == '35' ) {
     console.log('Show that types are true based on operator');
 }
+
+*/
