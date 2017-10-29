@@ -92,3 +92,9 @@ var peopleNames = ["Kwasi", "Kofi", "Kwame", "Kwabena", "Yaw"];
 for (var i = 0; i < peopleNames.length; i++) {
     console.log(peopleNames[i]);
 }
+
+/* code challenge */
+
+for (var i = peopleNames.length; i > -1; i--) {
+    console.log(peopleNames[i]);
+}
