@@ -363,10 +363,10 @@ for (var i = 0; i < yearsBirth.length; i++) {
 }
 
 for (var i = 0; i < peeps.length; i++) {
-    if (peeps[i] < 18 ) {
-        console.log("person aged " + peeps[i] + " is younger than 18" );
+    if (peeps[i] >= 18 ) {
+        console.log("person aged " + peeps[i] + " is of full age" );
     } else {
-        console.log("person aged " + peeps[i] + " is older than 18" );
+        console.log("person aged " + peeps[i] + " is not of full age" );
     }
 }
 
