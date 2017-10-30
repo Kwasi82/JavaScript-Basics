@@ -357,3 +357,8 @@ for (var i = 1; i <= 5; i ++) {
 var yearsBirth = [1978, 2010, 1982, 1975];
 
 var peeps = [];
+
+peeps.push("16");
+peeps.push("25");
+peeps.push("30");
+peeps.push("40");
