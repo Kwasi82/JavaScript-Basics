@@ -389,6 +389,6 @@ function printFullAges () {
     return fullAges;
 }
 
-var yearOfBirth = [2002, 1876, 1967, 1988, 2012];
+var yearsBirth = [2002, 1876, 1967, 1988, 2012];
 var fuller_1 = printFullAges(yearsBirth);
 var fuller_2 = printFullAges([2013, 1970, 2000]);
