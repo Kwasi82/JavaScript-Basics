@@ -380,8 +380,11 @@ function printFullAges () {
     for (var i = 0; i < peeps.length; i++) {
             if (peeps[i] >= 18 ) {
             console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is of full age" );
+            fullAges.push(true);
         } else {
             console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is not of full age" );
+            fullAges.push(false);
         }
     }
+    return fullAges;
 }
