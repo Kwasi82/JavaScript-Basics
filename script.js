@@ -355,7 +355,7 @@ for (var i = 1; i <= 5; i ++) {
 /* Coding challenge */
 
 var yearsBirth = [1978, 2010, 1982, 1975];
-
+/*
 var peeps = [];
 
 for (var i = 0; i < yearsBirth.length; i++) {
@@ -368,5 +368,4 @@ for (var i = 0; i < peeps.length; i++) {
     } else {
         console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is not of full age" );
     }
-}
-
+} */
