@@ -364,9 +364,9 @@ for (var i = 0; i < yearsBirth.length; i++) {
 
 for (var i = 0; i < peeps.length; i++) {
     if (peeps[i] >= 18 ) {
-        console.log("person aged " + peeps[i] + " is of full age" );
+        console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is of full age" );
     } else {
-        console.log("person aged " + peeps[i] + " is not of full age" );
+        console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is not of full age" );
     }
 }
 
