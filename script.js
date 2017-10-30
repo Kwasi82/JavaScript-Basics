@@ -369,3 +369,19 @@ for (var i = 0; i < peeps.length; i++) {
         console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is not of full age" );
     }
 } */
+function printFullAges () {
+    var peeps = [];
+    var fullAges = [];
+
+    for (var i = 0; i < yearsBirth.length; i++) {
+        peeps[i] = 2017 - yearsBirth[i];
+    }
+
+    for (var i = 0; i < peeps.length; i++) {
+            if (peeps[i] >= 18 ) {
+            console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is of full age" );
+        } else {
+            console.log("person " + (i + 1) + " aged "+ peeps[i] + " and is not of full age" );
+        }
+    }
+}
