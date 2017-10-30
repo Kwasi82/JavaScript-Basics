@@ -362,3 +362,11 @@ peeps.push("16");
 peeps.push("25");
 peeps.push("30");
 peeps.push("40");
+
+for (var i = 0; i < peeps.length; i++) {
+    if (peeps[i] < 18 ) {
+        console.log("person aged " + peeps[i] + " is younger than 18" );
+    } else {
+        console.log("person aged " + peeps[i] + " is older than 18" );
+    }
+}
