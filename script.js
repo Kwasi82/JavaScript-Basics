@@ -275,6 +275,7 @@ console.log(mamasayaa);
 */
 
 //Second version of method
+/*
 var mamasayaa = {
     firstName: "Mama-Sayaa",
     lastName: "Baffour",
@@ -296,7 +297,7 @@ console.log(mamasayaa);
 
 
 
-<<<<<<< HEAD
+<<<<<<< HEAD */
 /* LOOPS */
 
 /*
@@ -322,7 +323,7 @@ for (var i = peopleNames.length - 1; i >= 0; i--) {
 */
 
 //WHILE  loops
-
+/*
 var peopleName = ["Adwoa", "Abena", "Mama", "Mama-See-Waa"];
 
 var i = 0;
@@ -349,4 +350,10 @@ for (var i = 1; i <= 5; i ++) {
 }
 =======
 =======
->>>>>>> origin/master
+>>>>>>> origin/master */
+
+/* Coding challenge */
+
+var yearsBirth = [1978, 2010, 1982, 1975];
+
+var peeps = [];
