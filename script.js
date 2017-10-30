@@ -358,10 +358,9 @@ var yearsBirth = [1978, 2010, 1982, 1975];
 
 var peeps = [];
 
-peeps.push("16");
-peeps.push("25");
-peeps.push("30");
-peeps.push("40");
+for (var i = 0; i < yearsBirth.length; i++) {
+    peeps[i] = 2017 - yearsBirth[i];
+}
 
 for (var i = 0; i < peeps.length; i++) {
     if (peeps[i] < 18 ) {
@@ -370,3 +369,4 @@ for (var i = 0; i < peeps.length; i++) {
         console.log("person aged " + peeps[i] + " is older than 18" );
     }
 }
+
