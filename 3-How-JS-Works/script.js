@@ -10,6 +10,12 @@ knowAge(1982);
 
 //Function expression
 
+var ageToRetire = function (year) {
+    console.log(70 - (2017 - year));
+}
+
+
+ageToRetire(1982);
 
 
 
