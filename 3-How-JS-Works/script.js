@@ -50,7 +50,7 @@ console.log(age); // this returns 35
 
 // First scoping example
 
-/*
+
 var a = 'Hello!';
 first();
 
@@ -60,10 +60,10 @@ function first() {
 
     function second() {
         var c = 'Hey!';
-        console.log(a + b + c);
+        console.log(a + b + c); // Scoping chain goes up to var a
     }
 }
-*/
+
 
 
 
