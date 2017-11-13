@@ -34,7 +34,7 @@ function test () {
     console.log(age); // this returns 38
 }
 test();
-console.log(age);
+console.log(age); // this returns 35
 
 
 
