@@ -1,8 +1,11 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+function knowAge (year) {
+    console.log(2017 - year);
+}
 
-
+knowAge(1982);
 
 
 
