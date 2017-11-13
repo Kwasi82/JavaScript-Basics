@@ -1,11 +1,14 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+//Function declaration
 function knowAge (year) {
     console.log(2017 - year);
 }
 
 knowAge(1982);
+
+//Function expression
 
 
 
