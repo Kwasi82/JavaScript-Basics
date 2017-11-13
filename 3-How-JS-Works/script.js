@@ -11,14 +11,14 @@ knowAge(1982);
 //Function expression
 
 //This does not work even with hoisting as the functionn needs to be declared.
-ageToRetire(1928);
+//ageToRetire(1928);
 
 var ageToRetire = function (year) {
     console.log(70 - (2017 - year));
 }
 
 //This works in function expression
-//ageToRetire(1982);
+ageToRetire(1982);
 
 
 
