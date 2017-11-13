@@ -1,6 +1,8 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
 
+//FUNCTIONS
+
 //Function declaration
 function knowAge (year) {
     console.log(2017 - year);
@@ -20,7 +22,11 @@ var ageToRetire = function (year) {
 //This works in function expression
 ageToRetire(1982);
 
+//VARIABLES
 
+//returns undefined
+console.log(age);
+var age = 35;
 
 
 
