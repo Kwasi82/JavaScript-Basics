@@ -28,7 +28,13 @@ ageToRetire(1982);
 console.log(age);
 var age = 35;
 
-
+function test () {
+    console.log(age); // this returns undefined
+    var age = 38;
+    console.log(age); // this returns 38
+}
+test();
+console.log(age);
 
 
 
