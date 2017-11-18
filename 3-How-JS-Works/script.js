@@ -120,6 +120,12 @@ var Adu = {
 
 Adu.getYourAge();
 
+var Yaw = {
+    name: 'Yaw',
+    birthYear: 1978
+};
+
+
 
 
 
