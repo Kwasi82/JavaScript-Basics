@@ -3,6 +3,8 @@
 
 //FUNCTIONS
 
+/*
+
 //Function declaration
 function knowAge (year) {
     console.log(2017 - year);
@@ -36,7 +38,7 @@ function test () {
 test();
 console.log(age); // this returns 35
 
-
+*/
 
 
 
@@ -50,6 +52,7 @@ console.log(age); // this returns 35
 
 // First scoping example
 
+/*
 
 var a = 'Hello!';
 first();
@@ -65,11 +68,11 @@ function first() {
 }
 
 
-
+*/
 
 // Example to show the differece between execution stack and scope chain
 
-
+/*
 var a = 'Hello!';
 first();
 
@@ -88,7 +91,7 @@ function third() {
     console.log(a + b + c + d);
 }
 
-
+*/
 
 
 ///////////////////////////////////////
