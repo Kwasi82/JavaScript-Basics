@@ -104,7 +104,14 @@ function getAge(year) {
     console.log(this);
 }
 
-
+var Adu = {
+    name: 'Adutwum',
+    birthYear: 1982,
+    getYourAge: function() {
+        console.log(this);
+        console.log(2017 - this.birthYear);
+    }
+}
 
 
 
