@@ -94,7 +94,12 @@ function third() {
 ///////////////////////////////////////
 // Lecture: The this keyword
 
+getAge(1982);
 
+function getAge(year) {
+    console.log(2017 - year);
+    console.log(this);
+}
 
 
 
