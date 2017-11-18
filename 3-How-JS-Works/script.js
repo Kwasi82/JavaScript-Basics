@@ -113,6 +113,7 @@ var Adu = {
     }
 }
 
+Adu.getYourAge();
 
 
 
