@@ -125,6 +125,8 @@ var Yaw = {
     birthYear: 1978
 };
 
+Yaw.getYourAge = Adu.getYourAge;
+Yaw.getYourAge();
 
 
 
