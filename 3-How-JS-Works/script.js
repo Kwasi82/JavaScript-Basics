@@ -79,7 +79,7 @@ function first() {
 
     function second() {
         var c = 'Hey!';
-        third()
+        third();
     }
 }
 
