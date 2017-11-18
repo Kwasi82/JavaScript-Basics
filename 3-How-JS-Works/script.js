@@ -110,11 +110,11 @@ var Adu = {
     getYourAge: function() {
         console.log(this);
         console.log(2017 - this.birthYear);
-
+        /*
         function myInnerFunction() {
             console.log(this);
         }
-        myInnerFunction();
+        myInnerFunction(); */
     }
 }
 
