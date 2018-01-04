@@ -20,3 +20,4 @@ dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the di
 //document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
 //document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
 
+document.querySelector('.dice').style.display = 'none';
