@@ -15,4 +15,4 @@ scores = [0,0]; // These are the overall scores for the two players
 roundScore = 0; // This is the current score for the active player 
 activePlayer = 0; // This is the current active player with 0 and 1 representing players
 
-dice = 7; // This is the current score of the dice
+dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
