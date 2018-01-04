@@ -17,4 +17,6 @@ activePlayer = 0; // This is the current active player with 0 and 1 representing
 
 dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
 
-document.querySelector('#current-' + activePlayer).textContent = dice;
+//document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
+//document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
+
