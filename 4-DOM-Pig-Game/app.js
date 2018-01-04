@@ -16,3 +16,5 @@ roundScore = 0; // This is the current score for the active player
 activePlayer = 0; // This is the current active player with 0 and 1 representing players
 
 dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
+
+document.querySelector('#current-' + activePlayer).textContent = dice;
