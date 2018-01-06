@@ -26,6 +26,9 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
     var dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
 
     //2. Display the result of the random number
+    var diceDOM = document.querySelector('.dice');
+    diceDOM.style.display = 'block';
+    diceDOM.src = 'dice-' + dice + '.png'; 
 
     //3. Update the score for the round if NOT a 1
 
