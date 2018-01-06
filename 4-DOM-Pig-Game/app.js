@@ -9,13 +9,12 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, dice;
+var scores, roundScore, activePlayer;
 
 scores = [0,0]; // These are the overall scores for the two players
 roundScore = 0; // This is the current score for the active player 
 activePlayer = 0; // This is the current active player with 0 and 1 representing players
 
-dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
 
 //document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
 //document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
@@ -24,9 +23,10 @@ document.querySelector('.dice').style.display = 'none';
 
 document.querySelector('.btn-roll').addEventListener('click', function(){
     //1. Generate a random number
+    var dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
 
     //2. Display the result of the random number
 
     //3. Update the score for the round if NOT a 1
-    
+
 });
