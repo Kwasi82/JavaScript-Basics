@@ -23,5 +23,10 @@ dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the di
 document.querySelector('.dice').style.display = 'none';
 
 document.querySelector('.btn-roll').addEventListener('click', function(){
+    //1. Generate a random number
 
+    //2. Display the result of the random number
+
+    //3. Update the score for the round if NOT a 1
+    
 });
