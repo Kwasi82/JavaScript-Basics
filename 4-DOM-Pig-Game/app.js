@@ -41,6 +41,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     } else {
         // Other player's turn
         activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
+        roundScore = 0;
         /*
         if(activePlayer === 0) {
             activePlayer = 1;
