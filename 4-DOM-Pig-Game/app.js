@@ -20,7 +20,7 @@ activePlayer = 0; // This is the current active player with 0 and 1 representing
 
 document.querySelector('.dice').style.display = 'none';
 
-document.querySelector('.btn-roll').addEventListener('click', function(){
+document.querySelector('.btn-roll').addEventListener('click', function() {
     //1. Generate a random number
     var dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
 
