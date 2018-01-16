@@ -36,7 +36,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     //3. Update the score for the round if NOT a 1
     if (dice !== 1) {
         // Add the number thrown by dice
-
+        roundScore += dice;
+        document.querySelector('#current-' + activePlayer).textContent = roundScore; // This displays the round score for the activePlayer
     } else {
         // Other player's turn
     }
