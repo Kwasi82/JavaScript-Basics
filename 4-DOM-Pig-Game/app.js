@@ -34,6 +34,12 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     diceDOM.src = 'dice-' + dice + '.png'; 
 
     //3. Update the score for the round if NOT a 1
+    if (dice !== 1) {
+        // Add the number thrown by dice
+
+    } else {
+        // Other player's turn
+    }
 
 });
 
