@@ -40,6 +40,12 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         document.querySelector('#current-' + activePlayer).textContent = roundScore; // This displays the round score for the activePlayer
     } else {
         // Other player's turn
+        if(activePlayer === 0) {
+            activePlayer = 1;
+        } else {
+            activePlayer = 0;
+        }
+
     }
 
 });
