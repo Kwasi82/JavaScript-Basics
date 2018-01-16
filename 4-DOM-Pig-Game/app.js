@@ -16,8 +16,7 @@ roundScore = 0; // This is the current score for the active player
 activePlayer = 0; // This is the current active player with 0 and 1 representing players
 
 
-//document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
-//document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
+
 
 document.querySelector('.dice').style.display = 'none';
 
@@ -33,3 +32,8 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
     //3. Update the score for the round if NOT a 1
 
 });
+
+
+
+//document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
+//document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
