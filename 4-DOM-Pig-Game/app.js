@@ -72,6 +72,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 //Implement the hold option in the game
 document.querySelector('.btn-hold').addEventListener(click, function() {
     // Add the current to the active players global score
+    scores[activePlayer] += roundScore;
 
     // Update the user interface
 
