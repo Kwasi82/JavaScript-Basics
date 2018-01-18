@@ -9,12 +9,12 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, gamePlaying;
+var scores, roundScore, activePlayer, gamePlay;
 
 initGame();
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
-    if (gamePlaying) {
+    if(gamePlay) {
         //1. Generate a random number
          var dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
     
@@ -33,12 +33,11 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             nextPlayerTurn();        
         }
     }
-    
 });
 
 //Implement the hold option in the game
 document.querySelector('.btn-hold').addEventListener('click', function() {
-    if (gamePlaying) {
+    if(gamePlay) {
          // Add the current to the active players global score
         scores[activePlayer] += roundScore;
     
@@ -53,11 +52,10 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
             // Remove the active class from the active player
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
-            gamePlaying = false;
+            gamePlay = false;
         } else {
             nextPlayerTurn(); 
         }
-    
         // Next player turn
         //nextPlayerTurn();
     }
