@@ -11,9 +11,7 @@ GAME RULES:
 
 var scores, roundScore, activePlayer;
 
-scores = [0,0]; // These are the overall scores for the two players
-roundScore = 0; // This is the current score for the active player 
-activePlayer = 0; // This is the current active player with 0 and 1 representing players
+initGame();
 
 document.querySelector('.dice').style.display = 'none';
 
@@ -96,6 +94,16 @@ function nextPlayerTurn () {
         activePlayer = 0;
     } */
 
+}
+
+// Implement the new game function
+
+initGame();
+
+function initGame () {
+    scores = [0,0]; // These are the overall scores for the two players
+    roundScore = 0; // This is the current score for the active player 
+    activePlayer = 0; // This is the current active player with 0 and 1 representing players
 }
 
 
