@@ -90,8 +90,10 @@ function nextPlayerTurn () {
 
 }
 
-// Implement the new game function
+// Implement event listener to new button
+document.querySelector('btn-new').addEventListener('click', initGame);
 
+// Function for starting a new game
 initGame();
 
 function initGame () {
