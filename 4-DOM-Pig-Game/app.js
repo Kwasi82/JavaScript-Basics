@@ -69,6 +69,14 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
 });
 
+//Implement the hold option in the game
+document.querySelector('.btn-hold').addEventListener(click, function() {
+    // Add the current to the active players global score
+
+    // Update the user interface
+
+    // Check if the active player has won the game
+});
 
 
 //document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
