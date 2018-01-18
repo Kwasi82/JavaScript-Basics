@@ -66,7 +66,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     }
 
     // Next player turn
-    nextPlayerTurn();
+    //nextPlayerTurn();
 
 });
 
