@@ -55,6 +55,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         document.querySelector('.player-0-panel').classList.toggle('active');
         document.querySelector('.player-1-panel').classList.toggle('active');
 
+        //Hide the dice when we switch active player
+        document.querySelector('.dice').style.display = 'none';
+
         /*
         if(activePlayer === 0) {
             activePlayer = 1;
