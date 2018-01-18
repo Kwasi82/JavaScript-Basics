@@ -91,10 +91,10 @@ function nextPlayerTurn () {
 }
 
 // Implement event listener to new button
-document.querySelector('btn-new').addEventListener('click', initGame);
+document.querySelector('.btn-new').addEventListener('click', initGame);
 
 // Function for starting a new game
-initGame();
+//initGame();
 
 function initGame () {
     scores = [0,0]; // These are the overall scores for the two players
