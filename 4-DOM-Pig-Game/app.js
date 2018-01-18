@@ -13,11 +13,8 @@ var scores, roundScore, activePlayer, gamePlaying;
 
 initGame();
 
-
-
-
 document.querySelector('.btn-roll').addEventListener('click', function() {
-    if(gamePlaying) {
+    if (gamePlaying) {
         //1. Generate a random number
          var dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
     
@@ -64,7 +61,6 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         // Next player turn
         //nextPlayerTurn();
     }
-
 });
 
 function nextPlayerTurn () {
