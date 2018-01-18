@@ -32,9 +32,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             // Other player's turn
             nextPlayerTurn();        
         }
-    } else {
-        alert('Click "New game" to start the game again!')
-    }
+    } 
 });
 
 //Implement the hold option in the game
@@ -60,9 +58,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         }
         // Next player turn
         //nextPlayerTurn();
-    } else {
-        alert('Click "New game" to start the game again!')
-    }
+    } 
 });
 
 function nextPlayerTurn () {
