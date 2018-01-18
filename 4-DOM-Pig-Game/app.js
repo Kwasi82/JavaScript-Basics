@@ -40,37 +40,13 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         document.querySelector('#current-' + activePlayer).textContent = roundScore; // This displays the round score for the activePlayer
     } else {
         // Other player's turn
-        activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
-        roundScore = 0;
-
-        //Visually display the current score to 0
-        document.getElementById('current-0').textContent = '0';
-        document.getElementById('current-1').textContent = '0';
-
-        //Visually show the active player through different styling
-        //document.querySelector('.player-0-panel').classList.remove('active');
-        //document.querySelector('.player-1-panel').classList.add('active');
-
-        // Switch between players using toggle method
-        document.querySelector('.player-0-panel').classList.toggle('active');
-        document.querySelector('.player-1-panel').classList.toggle('active');
-
-        //Hide the dice when we switch active player
-        document.querySelector('.dice').style.display = 'none';
-
-        /*
-        if(activePlayer === 0) {
-            activePlayer = 1;
-        } else {
-            activePlayer = 0;
-        } */
-
+        nextPlayerTurn();        
     }
 
 });
 
 //Implement the hold option in the game
-document.querySelector('.btn-hold').addEventListener(click, function() {
+document.querySelector('.btn-hold').addEventListener('click', function() {
     // Add the current to the active players global score
     scores[activePlayer] += roundScore;
 
@@ -78,7 +54,39 @@ document.querySelector('.btn-hold').addEventListener(click, function() {
     document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
     // Check if the active player has won the game
+
+    // Next player turn
+    nextPlayerTurn();
+
 });
+
+function nextPlayerTurn () {
+    activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
+    roundScore = 0;
+
+    //Visually display the current score to 0
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+
+    //Visually show the active player through different styling
+    //document.querySelector('.player-0-panel').classList.remove('active');
+    //document.querySelector('.player-1-panel').classList.add('active');
+
+    // Switch between players using toggle method
+    document.querySelector('.player-0-panel').classList.toggle('active');
+    document.querySelector('.player-1-panel').classList.toggle('active');
+
+    //Hide the dice when we switch active player
+    document.querySelector('.dice').style.display = 'none';
+
+    /*
+    if(activePlayer === 0) {
+        activePlayer = 1;
+    } else {
+        activePlayer = 0;
+    } */
+
+}
 
 
 //document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
