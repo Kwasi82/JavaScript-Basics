@@ -13,13 +13,7 @@ var scores, roundScore, activePlayer;
 
 initGame();
 
-document.querySelector('.dice').style.display = 'none';
 
-// Set all scores to zero to start and clear HTML scores
-document.getElementById('score-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
 
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
@@ -104,6 +98,14 @@ function initGame () {
     scores = [0,0]; // These are the overall scores for the two players
     roundScore = 0; // This is the current score for the active player 
     activePlayer = 0; // This is the current active player with 0 and 1 representing players
+
+    document.querySelector('.dice').style.display = 'none';
+    
+    // Set all scores to zero to start and clear HTML scores
+    document.getElementById('score-0').textContent = '0';
+    document.getElementById('score-1').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
 }
 
 
