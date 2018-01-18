@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, gamePlay;
+var scores, roundScore, activePlayer, gamePlay; 
 
 initGame();
 
@@ -32,6 +32,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             // Other player's turn
             nextPlayerTurn();        
         }
+    } else {
+        alert('Click "New game" to start the game again!')
     }
 });
 
@@ -58,6 +60,8 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         }
         // Next player turn
         //nextPlayerTurn();
+    } else {
+        alert('Click "New game" to start the game again!')
     }
 });
 
@@ -114,6 +118,7 @@ function initGame () {
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner');
     document.querySelector('.player-0-panel').classList.add('active');
+    gamePlay = true;
 }
 
 
