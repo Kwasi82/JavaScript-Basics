@@ -25,8 +25,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     
         //3. Update the score for the round if NOT a 1 and both current and previous dice rolls not equal to 6
         if (dice == 6 && previousDiceRoll == 6) {
+            scores[activePlayer] = 0;
             document.getElementById('score-' + activePlayer).textContent ='0';
-            document.getElementById('current-' + activePlayer).textContent = '0';
             nextPlayerTurn(); 
         } else if (dice !== 1) {
             // Add the number thrown by dice
