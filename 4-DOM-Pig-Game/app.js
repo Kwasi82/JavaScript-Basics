@@ -20,8 +20,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
          var dice2 = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
     
         //2. Display the result of the random number
-        document.getElementById('dice-1').style.display = block;
-        document.getElementById('dice-2').style.display = block;
+        document.getElementById('dice-1').style.display = 'block';
+        document.getElementById('dice-2').style.display = 'block';
         document.getElementById('dice-1').src = 'dice-' + dice1 + '.png'; 
         document.getElementById('dice-2').src = 'dice-' + dice2 + '.png'; 
     
@@ -66,6 +66,11 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             // change the name of the active player to "Winner"
             document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
             // Add the "winner" class to the active player
+
+            // Remove dice
+            document.getElementById('dice-1').style.display = 'none';
+            document.getElementById('dice-2').style.display = 'none';
+
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
             // Remove the active class from the active player
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
@@ -94,7 +99,9 @@ function nextPlayerTurn () {
     document.querySelector('.player-1-panel').classList.toggle('active');
 
     //Hide the dice when we switch active player
-    document.querySelector('.dice').style.display = 'none';
+    document.getElementById('dice-1').style.display = 'none';
+    document.getElementById('dice-2').style.display = 'none';
+
 
     /*
     if(activePlayer === 0) {
@@ -119,6 +126,9 @@ function initGame () {
     document.querySelector('.dice').style.display = 'none';
     
     // Set all scores to zero to start and clear HTML scores
+    document.getElementById('dice-1').style.display = 'none';
+    document.getElementById('dice-2').style.display = 'none';
+
     document.getElementById('score-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';
     document.getElementById('current-0').textContent = '0';
