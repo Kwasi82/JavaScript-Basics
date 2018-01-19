@@ -16,12 +16,14 @@ initGame();
 document.querySelector('.btn-roll').addEventListener('click', function() {
     if(gamePlay) {
         //1. Generate a random number
-         var dice = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
+         var dice1 = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
+         var dice2 = Math.floor(Math.random() * 6) + 1; // This is the current score of the dice
     
         //2. Display the result of the random number
-        var diceDOM = document.querySelector('.dice');
-        diceDOM.style.display = 'block';
-        diceDOM.src = 'dice-' + dice + '.png'; 
+        document.getElementById('dice-1').style.display = block;
+        document.getElementById('dice-2').style.display = block;
+        document.getElementById('dice-1').src = 'dice-' + dice1 + '.png'; 
+        document.getElementById('dice-2').src = 'dice-' + dice2 + '.png'; 
     
         //3. Update the score for the round if NOT a 1 and both current and previous dice rolls not equal to 6
         if (dice == 6 && previousDiceRoll == 6) {
