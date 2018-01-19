@@ -24,15 +24,15 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         diceDOM.src = 'dice-' + dice + '.png'; 
     
         //3. Update the score for the round if NOT a 1
-        if (dice !== 1 && dice !== 6 && previousDiceRoll !== 6) {
+        if (dice == 6 && previousDiceRoll == 6) {
+            document.getElementById('score-' + activePlayer).textContent ='0';
+            document.getElementById('current-' + activePlayer).textContent = '0';
+            nextPlayerTurn(); 
+        } else if (dice !== 1) {
             // Add the number thrown by dice
             roundScore += dice;
             document.querySelector('#current-' + activePlayer).textContent = roundScore; // Replaces previous dice roll with current dice roll
             previousDiceRoll = dice;
-        } else if (dice == 6 && previousDiceRoll == 6) {
-            document.getElementById('score-' + activePlayer).textContent ='0';
-            document.getElementById('current-' + activePlayer).textContent = '0';
-            nextPlayerTurn(); 
         } else {
             // Other player's turn
             nextPlayerTurn();        
