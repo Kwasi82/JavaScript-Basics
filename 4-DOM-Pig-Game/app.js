@@ -31,6 +31,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             previousDiceRoll = dice;
         } else if (dice == 6 && previousDiceRoll == 6) {
             document.getElementById('score-' + activePlayer).textContent ='0';
+            document.getElementById('current-' + activePlayer).textContent = '0';
             nextPlayerTurn(); 
         } else {
             // Other player's turn
