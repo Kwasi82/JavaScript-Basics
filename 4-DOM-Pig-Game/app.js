@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, gamePlay; 
+var scores, roundScore, activePlayer, gamePlay, previousDiceRoll; 
 
 initGame();
 
