@@ -9,8 +9,8 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, previousDiceRoll, inputValue; 
-var gamePlay = false; 
+var scores, roundScore, activePlayer, previousDiceRoll, inputValue, gamePlay; 
+
 initGame();
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
@@ -57,7 +57,6 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
             // Remove the active class from the active player
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
-            gamePlay = false;
         } else {
             nextPlayerTurn(); 
         }
@@ -119,7 +118,7 @@ function initGame () {
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner');
     document.querySelector('.player-0-panel').classList.add('active');
-    //gamePlay = true;
+    gamePlay = true;
 }
 
 
