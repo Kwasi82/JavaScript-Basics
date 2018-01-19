@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, gamePlay, previousDiceRoll; 
+var scores, roundScore, activePlayer, gamePlay, previousDiceRoll, inputValue; 
 
 initGame();
 
@@ -50,7 +50,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
     
         // Check if the active player has won the game
-        if (scores[activePlayer]  >= 100) {
+        if (scores[activePlayer]  >= inputValue) {
             // change the name of the active player to "Winner"
             document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
             // Add the "winner" class to the active player
@@ -125,3 +125,12 @@ function initGame () {
 
 //document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
 //document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
+
+function receiveWinScore () {
+    inputValue = document.getElementById('scorefield').value;
+    if(isNaN(inputValue)) {
+        alert(inputValue + " is not a valid input! Please enter a valid number.")
+    } else {
+        return inputValue;
+    }
+}
