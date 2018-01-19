@@ -9,8 +9,8 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, gamePlay, previousDiceRoll, inputValue; 
-
+var scores, roundScore, activePlayer, previousDiceRoll, inputValue; 
+var gamePlay = false; 
 initGame();
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
@@ -119,7 +119,7 @@ function initGame () {
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner');
     document.querySelector('.player-0-panel').classList.add('active');
-    gamePlay = true;
+    //gamePlay = true;
 }
 
 
@@ -133,8 +133,10 @@ function receiveWinScore () {
     inputValue = document.getElementById('scorefield').value;
     if(isNaN(inputValue)) {
         messageScore = inputValue + " is not a valid input! Please enter a valid number.";
+        console.log(messageScore);
     } else {
         messageScore = inputValue;
+        gamePlay = true;
         console.log(inputValue);
         return inputValue;
     }
