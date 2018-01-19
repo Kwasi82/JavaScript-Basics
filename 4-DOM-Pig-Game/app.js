@@ -24,10 +24,11 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         diceDOM.src = 'dice-' + dice + '.png'; 
     
         //3. Update the score for the round if NOT a 1
-        if (dice !== 1) {
+        if (dice !== 1 && dice !== 6 && previousDiceRoll !== 6) {
             // Add the number thrown by dice
             roundScore += dice;
-            document.querySelector('#current-' + activePlayer).textContent = roundScore; // This displays the round score for the activePlayer
+            document.querySelector('#current-' + activePlayer).textContent = roundScore; // Replaces previous dice roll with current dice roll
+            previousDiceRoll = dice;
         } else {
             // Other player's turn
             nextPlayerTurn();        
