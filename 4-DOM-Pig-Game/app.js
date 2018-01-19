@@ -127,12 +127,16 @@ function initGame () {
 //document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
 
 function receiveWinScore () {
+
+    var messageScore;
+
     inputValue = document.getElementById('scorefield').value;
     if(isNaN(inputValue)) {
-        document.getElementById('gameWinScore').innerHTML = inputValue + " is not a valid input! Please enter a valid number.";
+        messageScore = inputValue + " is not a valid input! Please enter a valid number.";
     } else {
-        document.getElementById('gameWinScore').innerHTML = inputValue;
+        messageScore = inputValue;
         console.log(inputValue);
         return inputValue;
     }
+    document.getElementById('gameWinScore').innerHTML = messageScore;
 }
