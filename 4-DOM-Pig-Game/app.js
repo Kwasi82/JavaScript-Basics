@@ -29,6 +29,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             roundScore += dice;
             document.querySelector('#current-' + activePlayer).textContent = roundScore; // Replaces previous dice roll with current dice roll
             previousDiceRoll = dice;
+        } else if (dice == 6 && previousDiceRoll == 6) {
+            document.getElementById('score-' + activePlayer).textContent ='0';
+            nextPlayerTurn(); 
         } else {
             // Other player's turn
             nextPlayerTurn();        
