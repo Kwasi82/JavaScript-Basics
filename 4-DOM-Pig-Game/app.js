@@ -50,9 +50,17 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
         var inputValue = document.querySelector('#scorefield').value;
+        var winScore;
+
+        //Check to make sure the value is not empty
+        if (inputValue) {
+            winScore = inputValue;
+        } else {
+            winScore = 100;
+        }
     
         // Check if the active player has won the game
-        if (scores[activePlayer]  >= inputValue) {
+        if (scores[activePlayer]  >= winScore) {
             // change the name of the active player to "Winner"
             document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
             // Add the "winner" class to the active player
