@@ -26,6 +26,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         document.getElementById('dice-2').src = 'dice-' + dice2 + '.png'; 
     
         //3. Update the score for the round if NOT a 1 and both current and previous dice rolls not equal to 6
+
+        /*
         if (dice == 6 && previousDiceRoll == 6) {
             scores[activePlayer] = 0;
             document.getElementById('score-' + activePlayer).textContent ='0';
@@ -38,7 +40,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         } else {
             // Other player's turn
             nextPlayerTurn();        
-        }
+        } */
     } 
 });
 
