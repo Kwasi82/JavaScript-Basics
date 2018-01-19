@@ -131,6 +131,7 @@ function receiveWinScore () {
     if(isNaN(inputValue)) {
         alert(inputValue + " is not a valid input! Please enter a valid number.")
     } else {
+        document.getElementById('gameWinScore').innerHTML = inputValue;
         return inputValue;
     }
 }
