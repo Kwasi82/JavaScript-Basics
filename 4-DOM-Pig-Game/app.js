@@ -132,6 +132,7 @@ function receiveWinScore () {
         alert(inputValue + " is not a valid input! Please enter a valid number.")
     } else {
         document.getElementById('gameWinScore').innerHTML = inputValue;
+        console.log(inputValue);
         return inputValue;
     }
 }
