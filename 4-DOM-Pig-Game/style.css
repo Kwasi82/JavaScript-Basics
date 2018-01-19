@@ -160,4 +160,11 @@ i {
     left: 45%; 
 }
 
-#scorefield {width: 100px;}
+#scorefield {
+    width: 100px;
+    font-size: 17px;
+    font-family: 'Lato';
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
