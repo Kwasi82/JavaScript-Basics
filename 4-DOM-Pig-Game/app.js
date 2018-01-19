@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 
-var scores, roundScore, activePlayer, previousDiceRoll, inputValue, gamePlay; 
+var scores, roundScore, activePlayer, previousDiceRoll, gamePlay; 
 
 initGame();
 
@@ -48,6 +48,8 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     
         // Update the user interface
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
+
+        var inputValue = document.querySelector('#scorefield').value;
     
         // Check if the active player has won the game
         if (scores[activePlayer]  >= inputValue) {
