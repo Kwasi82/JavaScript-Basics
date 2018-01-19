@@ -126,6 +126,7 @@ function initGame () {
 //document.querySelector('#current-' + activePlayer).textContent = dice; //This allows for text only
 //document.querySelector('#current-1').innerHTML = '<em>' + dice + '</em>'; //This allows for HTML
 
+/*
 function receiveWinScore () {
 
     var messageScore;
@@ -141,4 +142,4 @@ function receiveWinScore () {
         return inputValue;
     }
     document.getElementById('gameWinScore').innerHTML = messageScore;
-}
+} */
