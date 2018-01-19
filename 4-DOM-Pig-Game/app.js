@@ -83,6 +83,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
             // Remove the active class from the active player
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
+            gamePlay = false;
         } else {
             nextPlayerTurn(); 
         }
