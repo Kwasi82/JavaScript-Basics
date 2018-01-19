@@ -168,3 +168,6 @@ i {
     text-align: center;
     text-transform: uppercase;
 }
+
+#dice-1 { top: 120px; }
+#dice-2 { top: 250px; }
