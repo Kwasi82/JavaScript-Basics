@@ -131,6 +131,7 @@ function initGame () {
     scores = [0,0]; // These are the overall scores for the two players
     roundScore = 0; // This is the current score for the active player 
     activePlayer = 0; // This is the current active player with 0 and 1 representing players
+    gamePlay = true;
 
     document.querySelector('.dice').style.display = 'none';
     
@@ -149,7 +150,7 @@ function initGame () {
     document.querySelector('.player-0-panel').classList.remove('winner');
     document.querySelector('.player-1-panel').classList.remove('winner');
     document.querySelector('.player-0-panel').classList.add('active');
-    gamePlay = true;
+    
 }
 
 
