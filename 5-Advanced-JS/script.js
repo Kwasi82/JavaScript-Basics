@@ -11,3 +11,5 @@ var Person = function (name, yearOfBirth, job) {
     this.yearOfBirth = yearOfBirth;
     this.job = job;
 }
+
+var kwasi = new Person('Kwasi', 1982, 'Developer');
