@@ -36,3 +36,13 @@ console.log(kwasi.lastname);
 console.log(adwoa.lastname);
 
 */
+
+
+//Object.create method
+
+var personProto = {
+    calculateAge: function () {
+        console.log(2018 - this.yearOfBirth);
+    }
+};
+
