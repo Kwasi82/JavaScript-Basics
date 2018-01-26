@@ -46,7 +46,15 @@ var personProto = {
     }
 };
 
+// Option one for creating an instance of personProto
 var kwasi = Object.create(personProto);
 kwasi.name = 'Kwasi';
 kwasi.yearOfBirth = 1982;
 kwasi.job = 'Developer';
+
+// Option two for creating an instance of personProto
+var adwoa = Object.create(personProto, {
+    name: { value: 'Adwoa'},
+    yearOfBirth: { value: 1984 },
+    job: { value: 'Digital Marketer'}
+});
