@@ -46,3 +46,7 @@ var personProto = {
     }
 };
 
+var kwasi = Object.create(personProto);
+kwasi.name = 'Kwasi';
+kwasi.yearOfBirth = 1982;
+kwasi.job = 'Developer';
