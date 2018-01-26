@@ -19,6 +19,9 @@ function () {
     console.log(2018 - this.yearOfBirth);
 };
 
+// Provide lastname to all instances of Person via inheritance
+Person.prototype.lastname = "Asiedu";
+
 //This is a sample of instanciation 
 var kwasi = new Person('Kwasi', 1982, 'Developer');
 var adwoa = new Person('Adwoa', 1984, 'Digital Marketer');
@@ -26,3 +29,6 @@ var adwoa = new Person('Adwoa', 1984, 'Digital Marketer');
 //Call calculateAge method
 kwasi.calculateAge();
 adwoa.calculateAge();
+
+console.log(kwasi.lastname);
+console.log(adwoa.lastname);
