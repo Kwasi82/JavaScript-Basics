@@ -17,7 +17,7 @@ var Person = function (name, yearOfBirth, job) {
 Person.prototype.calculateAge = 
 function () {
     console.log(2018 - this.yearOfBirth);
-}
+};
 
 //This is a sample of instanciation 
 var kwasi = new Person('Kwasi', 1982, 'Developer');
