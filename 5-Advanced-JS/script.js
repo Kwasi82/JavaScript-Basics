@@ -1,4 +1,6 @@
-// function constructor
+/*
+
+// function constructor method
 
 var kwasi = {
     name: 'Kwasi',
@@ -32,3 +34,5 @@ adwoa.calculateAge();
 
 console.log(kwasi.lastname);
 console.log(adwoa.lastname);
+
+*/
