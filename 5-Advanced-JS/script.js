@@ -17,3 +17,4 @@ var Person = function (name, yearOfBirth, job) {
 
 //This is a sample of instanciation 
 var kwasi = new Person('Kwasi', 1982, 'Developer');
+var adwoa = new Person('Adwoa', 1984, 'Digital Marketer');
