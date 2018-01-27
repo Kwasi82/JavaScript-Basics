@@ -64,6 +64,8 @@ var adwoa = Object.create(personProto, {
 
 // Primatives vs objects
 
+
+// Primatives
 var a = 25;
 var b = 47;
 a = 60;
@@ -75,6 +77,8 @@ var object1 = {
     age: 35
 };
 
+// Objects
+// object2 is a reference to object1
 var object2 = object1;
 object1.age = 36;
 
