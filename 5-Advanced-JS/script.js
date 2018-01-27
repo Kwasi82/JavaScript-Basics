@@ -107,3 +107,4 @@ console.log(obj.city);
 ///////////////////////
 // Lecture: Passing functions as arguments
 
+var years = [1823, 1963, 1743, 2006, 1998];
