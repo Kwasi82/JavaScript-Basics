@@ -117,9 +117,19 @@ function arrayCalc(arr, fn) {
     return arrRes;
 }
 
+//Returns the current age based on the year of birth against the current year
 function  calculateAge(el) {
     return 2018 - el;
 }
 
+//Returns the true or false depending on whether age passed in is greater than 30
+function isFullAge(el) {
+    return el < 30;
+}
+
+// Calculates ages based on years
 var ages = arrayCalc(years, calculateAge);
+var fullAges = arrayCalc(ages, isFullAge);
+
 console.log(ages);
+console.log(fullAges);
