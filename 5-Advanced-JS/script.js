@@ -64,4 +64,19 @@ var adwoa = Object.create(personProto, {
 
 // Primatives vs objects
 
+var a = 25;
+var b = 47;
+a = 60;
+console.log(a);
+console.log(b);
 
+var object1 = {
+    name: 'Kwasi',
+    age: 35
+};
+
+var object2 = object1;
+object1.age = 36;
+
+console.log(object1.age);
+console.log(object2.age); 
