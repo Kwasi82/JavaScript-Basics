@@ -64,7 +64,7 @@ var adwoa = Object.create(personProto, {
 
 // Primatives vs objects
 
-
+/*
 // Primatives
 var a = 25;
 var b = 47;
@@ -101,3 +101,9 @@ change(age, obj);
 
 console.log(age);
 console.log(obj.city);
+
+*/
+
+///////////////////////
+// Lecture: Passing functions as arguments
+
