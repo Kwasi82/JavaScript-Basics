@@ -40,6 +40,7 @@ console.log(adwoa.lastname);
 
 //Object.create method
 
+//This is the prototype object
 var personProto = {
     calculateAge: function () {
         console.log(2018 - this.yearOfBirth);
