@@ -111,7 +111,7 @@ var years = [1823, 1963, 1743, 2006, 1998];
 
 function arrayCalc(arr, fn) {
     var arrRes = [];
-    for (var i = 0, i < arr.length, i++) {
+    for (var i = 0; i < arr.length; i++) {
         arrRes.push(fn(arr[i]));
     }
     return arrRes;
