@@ -127,9 +127,19 @@ function isFullAge(el) {
     return el > 30;
 }
 
+//calculate the max heart rate 
+function maxHeartRate(el) {
+    if (el >= 18 && el <= 81) {
+        return Math.round(206.9 - (0.67 * el));
+    } else {
+        return -1;
+    }  
+}
+
 // Calculates ages based on years
 var ages = arrayCalc(years, calculateAge);
 var fullAges = arrayCalc(ages, isFullAge);
+var rates = arrayCalc(ages, maxHeartRate);
 
 console.log(ages);
-console.log(fullAges);
+console.log(rates);
