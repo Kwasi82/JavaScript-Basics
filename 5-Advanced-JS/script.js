@@ -80,3 +80,20 @@ object1.age = 36;
 
 console.log(object1.age);
 console.log(object2.age); 
+
+// Functions
+var age = 35;
+var obj = {
+    name: 'Kwasi',
+    city: 'Ibadan'
+};
+
+function change(a, b) {
+    a = 36;
+    b.city = 'Lagos';
+}
+
+change(age, obj);
+
+console.log(age);
+console.log(obj.city);
