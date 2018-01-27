@@ -37,7 +37,7 @@ console.log(adwoa.lastname);
 
 */
 
-
+/*
 //Object.create method
 
 //This is the prototype object
@@ -59,3 +59,9 @@ var adwoa = Object.create(personProto, {
     yearOfBirth: { value: 1984 },
     job: { value: 'Digital Marketer'}
 });
+
+*/
+
+// Primatives vs objects
+
+
