@@ -150,6 +150,7 @@ console.log(rates);
 
 function interviewQuestion(job) {
     if (job === 'designer') {
+        // this shows a function being returned as an object
         return function (name) {
             console.log(name + ' , can you please explain what UX design is?');
         }
