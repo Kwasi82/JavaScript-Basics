@@ -106,7 +106,7 @@ console.log(obj.city);
 
 ///////////////////////
 // Lecture: Passing functions as arguments
-
+/*
 var years = [1823, 1963, 1743, 2006, 1998];
 
 function arrayCalc(arr, fn) {
@@ -143,3 +143,4 @@ var rates = arrayCalc(ages, maxHeartRate);
 
 console.log(ages);
 console.log(rates);
+*/
