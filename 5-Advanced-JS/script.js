@@ -178,7 +178,7 @@ interviewQuestion('designer')('Adwoa');
 
 //////////////////////////////////////////////////
 // Lecture: IIFE
-
+/*
 // score variable not accessible outside of the function
 function game() {
     var score = Math.random() * 10;
@@ -186,3 +186,10 @@ function game() {
 }
 
 game();
+*/
+
+// This is an Immeditately Invoked Function Expression
+(function game() {
+    var score = Math.random() * 10;
+    console.log(score >= 5);
+})();
