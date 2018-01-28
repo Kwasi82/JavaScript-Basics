@@ -213,3 +213,8 @@ function retirement(retirementAge) {
         console.log((retirementAge - age) + a);
     }
 }
+
+var retirementNG = retirement(65);
+retirementNG(1982);
+
+retirement(65)(1982);
