@@ -152,7 +152,7 @@ function interviewQuestion(job) {
     if (job === 'designer') {
         // this shows a function being returned as an object
         return function (name) {
-            console.log(name + ' , can you please explain what UX design is?');
+            console.log(name + ', can you please explain what UX design is?');
         }
     } else if ( job === 'teacher') {
         return function (name) {
@@ -165,7 +165,7 @@ function interviewQuestion(job) {
     }
 }
 
-var teacherQuestion = interviewQuestion('designer');
+var teacherQuestion = interviewQuestion('teacher');
 
 // the variable then becomes the returned function
 teacherQuestion('Kwasi');
