@@ -147,7 +147,7 @@ console.log(rates);
 
 //////////////////////////////////////////
 // Lecture: Functions returing functions
-
+/*
 function interviewQuestion(job) {
     if (job === 'designer') {
         // this shows a function being returned as an object
@@ -174,3 +174,5 @@ designerQuestion('Kofi');
 
 //calling the function right away
 interviewQuestion('designer')('Adwoa');
+*/
+
