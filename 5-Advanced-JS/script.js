@@ -166,6 +166,8 @@ function interviewQuestion(job) {
 }
 
 var teacherQuestion = interviewQuestion('teacher');
+var designerQuestion = interviewQuestion('designer');
 
 // the variable then becomes the returned function
 teacherQuestion('Kwasi');
+designerQuestion('Kofi');
