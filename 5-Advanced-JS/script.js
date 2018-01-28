@@ -171,3 +171,6 @@ var designerQuestion = interviewQuestion('designer');
 // the variable then becomes the returned function
 teacherQuestion('Kwasi');
 designerQuestion('Kofi');
+
+//calling the function right away
+interviewQuestion('designer')('Adwoa');
