@@ -176,3 +176,13 @@ designerQuestion('Kofi');
 interviewQuestion('designer')('Adwoa');
 */
 
+//////////////////////////////////////////////////
+// Lecture: IIFE
+
+// score variable not accessible outside of the function
+function game() {
+    var score = Math.random() * 10;
+    console.log(score >= 5);
+}
+
+game();
