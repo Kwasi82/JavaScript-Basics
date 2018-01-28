@@ -214,7 +214,14 @@ function retirement(retirementAge) {
     }
 }
 
+//Setting retirement ages per country
 var retirementNG = retirement(65);
-retirementNG(1982);
+var retirementGH = retirement(60);
+var retirementGB = retirement(70);
 
-retirement(65)(1982);
+//Setting current age
+retirementNG(1982);
+retirementGH(1982);
+retirementGB(1982);
+
+//retirement(65)(1982);
