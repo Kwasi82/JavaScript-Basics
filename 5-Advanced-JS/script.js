@@ -188,6 +188,7 @@ function game() {
 game();
 */
 
+/*
 // This is an Immeditately Invoked Function Expression
 (function game() {
     var score = Math.random() * 10;
@@ -199,3 +200,8 @@ game();
     var score = Math.random() * 10;
     console.log(score >= 5 - goodLuck);
 })(4);
+*/
+
+/////////////////////////////////////////////////////
+// Lecture: Closures
+
