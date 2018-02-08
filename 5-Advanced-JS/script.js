@@ -310,3 +310,14 @@ function  calculateAge(el) {
 function isFullAge(limit, el) {
     return el > limit;
 }
+
+
+//This calculates the ages based on years
+var ages = arrayCalc(years, calculateAge);
+
+
+// This calculates the age limit for specific country and passes a preset age
+var fullAgeCountryNG = arrayCalc(ages, isFullAge.bind(this, 20));
+
+console.log(ages);
+console.log(fullAgeCountryNG);
