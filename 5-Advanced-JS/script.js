@@ -206,6 +206,7 @@ game();
 // Lecture: Closures
 
 // Create a function for determining the years to retirement
+/*
 function retirement(retirementAge) {
     var a = ' years left until retirement.';
     return function(yearOfBirth) {
@@ -245,6 +246,7 @@ secondInterviewQuestion('teacher')('Kwasi');
 
 var newInterviewQuestion = secondInterviewQuestion('designer');
 newInterviewQuestion('Adwoa');
+*/
 
 ////////////////////////////////////////////////////////////////
 // Lecture: Bind, call and apply
@@ -261,3 +263,5 @@ var kwasi = {
         }
     }
 };
+
+kwasi.presentation('formal','morning');
