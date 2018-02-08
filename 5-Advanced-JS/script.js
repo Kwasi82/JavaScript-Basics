@@ -277,3 +277,9 @@ kwasi.presentation.call(kwadwo, 'friendly', 'afternoon');
 
 //This shows how 'apply' can be used. It will enter in an array.
 //kwasi.presentation.apply(kwadwo, ['frendly', 'morning']);
+
+//This shows how 'bind' can be used to store and argument for later use
+
+var kwasiFriendly = kwasi.presentation.bind(kwadwo, 'friendly');
+
+kwasiFriendly('afternoon');
