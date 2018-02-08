@@ -245,3 +245,12 @@ secondInterviewQuestion('teacher')('Kwasi');
 
 var newInterviewQuestion = secondInterviewQuestion('designer');
 newInterviewQuestion('Adwoa');
+
+////////////////////////////////////////////////////////////////
+// Lecture: Bind, call and apply
+
+var kwasi = {
+    name: 'Kwasi',
+    age: 35,
+    job: 'Web Developer',
+};
