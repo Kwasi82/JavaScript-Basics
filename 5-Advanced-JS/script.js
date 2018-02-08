@@ -274,3 +274,6 @@ kwasi.presentation('formal','morning');
 
 //This shows by adding 'call' we show an example of 'method borrowing'. 'kwadwo' now represents this in the method in 'kwasi' object.
 kwasi.presentation.call(kwadwo, 'friendly', 'afternoon');
+
+//This shows how 'apply' can be used. It will enter in an array.
+//kwasi.presentation.apply(kwadwo, ['frendly', 'morning']);
