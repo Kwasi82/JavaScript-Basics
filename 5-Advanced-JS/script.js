@@ -283,3 +283,9 @@ kwasi.presentation.call(kwadwo, 'friendly', 'afternoon');
 var kwasiFriendly = kwasi.presentation.bind(kwasi, 'friendly');
 
 kwasiFriendly('afternoon');
+
+
+//This shows a bind for formal while using kwadwo object.
+var kwadwoFormal = kwasi.presentation.bind(kwadwo, 'formal');
+
+kwadwoFormal('evening');
