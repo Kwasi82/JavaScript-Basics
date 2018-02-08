@@ -228,34 +228,6 @@ retirementGB(1982);
 
 // Converting interview questions using closures
 
-/*
-function interviewQuestion(job) {
-    if (job === 'designer') {
-        // this shows a function being returned as an object
-        return function (name) {
-            console.log(name + ', can you please explain what UX design is?');
-        }
-    } else if ( job === 'teacher') {
-        return function (name) {
-            console.log('What subject do you teach, ' + name + '?');
-        }
-    } else {
-        return function(name) {
-            console.log('Hello ' + name + ', what do you do?'); 
-        }
-    }
-}
-
-var teacherQuestion = interviewQuestion('teacher');
-var designerQuestion = interviewQuestion('designer');
-
-// the variable then becomes the returned function
-teacherQuestion('Kwasi');
-designerQuestion('Kofi');
-
-//calling the function right away
-interviewQuestion('designer')('Adwoa');
-*/
 
 function secondInterviewQuestion (job) {
     return function (name) {
