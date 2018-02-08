@@ -289,3 +289,24 @@ kwasiFriendly('afternoon');
 var kwadwoFormal = kwasi.presentation.bind(kwadwo, 'formal');
 
 kwadwoFormal('evening');
+
+
+var years = [1823, 1963, 1743, 2006, 1998];
+
+function arrayCalc(arr, fn) {
+    var arrRes = [];
+    for (var i = 0; i < arr.length; i++) {
+        arrRes.push(fn(arr[i]));
+    }
+    return arrRes;
+}
+
+//Returns the current age based on the year of birth against the current year
+function  calculateAge(el) {
+    return 2018 - el;
+}
+
+//Returns the true or false depending on whether age passed in is greater than 30
+function isFullAge(el) {
+    return el > 30;
+}
