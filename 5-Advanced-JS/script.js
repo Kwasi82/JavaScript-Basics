@@ -308,7 +308,7 @@ function  calculateAge(el) {
 
 //Returns the true or false depending on whether age passed in is greater than 30
 function isFullAge(limit, el) {
-    return el > limit;
+    return el >= limit;
 }
 
 
