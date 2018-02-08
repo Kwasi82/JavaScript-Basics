@@ -264,4 +264,13 @@ var kwasi = {
     }
 };
 
+var kwadwo = {
+    name: 'Kwadwo',
+    age: 31,
+    job: 'Project Manager'
+}
+
 kwasi.presentation('formal','morning');
+
+//This shows by adding 'call' we show an example of 'method borrowing'. 'kwadwo' now represents this in the method in 'kwasi' object.
+kwasi.presentation.call(kwadwo, 'friendly', 'afternoon');
