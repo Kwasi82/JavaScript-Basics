@@ -359,3 +359,5 @@ selectRandomQuestion();
 console.log(randomNumberQuestion);
 */
 
+selectRandomQuestion();
+
