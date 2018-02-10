@@ -336,6 +336,7 @@ var Question = function (question, answer, correct) {
     this.answer = answer;
     this.correct = correct
     console.log(question + answer);
+    var giveAnswer = prompt('What is your answer?');
 }
 
 var questionOne = new Question ('Which avenger is from Wakanda?\n', ['0: Captain America\n','1: Winter Soldier\n','2: Black Panther\n'],2);
