@@ -344,7 +344,7 @@ var questionThree = new Question ('Who is the current quarterback for the Dalles
 var setOfQuestions = [questionOne,questionTwo,questionThree];
 
 var selectRandomQuestion = function () {
-    randomNumberQuestion = Math.floor((random * 3) + 1);
+    randomNumberQuestion = Math.floor((Math.random * 3) + 1);
 }
 
 selectRandomQuestion();
