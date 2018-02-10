@@ -335,11 +335,12 @@ var Question = function (question, answer, correct) {
     this.question = question;
     this.answer = answer;
     this.correct = correct
+    console.log(question + answer);
 }
 
-var questionOne = new Question ('Which avenger is from Wakanda?', ['0: Captain America','1: Winter Soldier','2: Black Panther'],2);
-var questionTwo = new Question ('What position did formal Chelsea Star Didier Drogba play?', ['0: Striker','1: Midfielder','2: Goalkeeper'],0);
-var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?', ['Dak Prescott','Tony Romo','Roger Staubach'],0);
+var questionOne = new Question ('Which avenger is from Wakanda?\n', ['0: Captain America\n','1: Winter Soldier\n','2: Black Panther\n'],2);
+var questionTwo = new Question ('What position did formal Chelsea Star Didier Drogba play?\n', ['0: Striker\n','1: Midfielder\n','2: Goalkeeper\n'],0);
+var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?\n', ['Dak Prescott\n','Tony Romo\n','Roger Staubach\n'],0);
 
 var setOfQuestions = [questionOne,questionTwo,questionThree];
 
