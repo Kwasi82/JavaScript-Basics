@@ -346,7 +346,7 @@ var Question = function (question, answer, correct) {
 
 var questionOne = new Question ('Which avenger is from Wakanda?\n', ['0: Captain America\n','1: Winter Soldier\n','2: Black Panther\n'],2);
 var questionTwo = new Question ('What position did formal Chelsea Star Didier Drogba play?\n', ['0: Striker\n','1: Midfielder\n','2: Goalkeeper\n'],0);
-var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?\n', ['Dak Prescott\n','Tony Romo\n','Roger Staubach\n'],0);
+var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?\n', ['0: Dak Prescott\n','1: Tony Romo\n','2: Roger Staubach\n'],0);
 
 var setOfQuestions = [questionOne,questionTwo,questionThree];
 
