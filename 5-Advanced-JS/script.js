@@ -345,7 +345,10 @@ var setOfQuestions = [questionOne,questionTwo,questionThree];
 
 var selectRandomQuestion = function () {
     randomNumberQuestion = Math.floor((Math.random() * 3) + 1);
+    Question(selectRandomQuestion[randomNumberQuestion[0]],selectRandomQuestion[randomNumberQuestion[1]],selectRandomQuestion[randomNumberQuestion[2]]);
 }
-
+/*
 selectRandomQuestion();
 console.log(randomNumberQuestion);
+*/
+
