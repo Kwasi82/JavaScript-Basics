@@ -329,6 +329,8 @@ console.log(fullAgeCountryNG);
 ///////////////////////////////////////////////////////
 // Coding Challenge
 
+var randomNumberQuestion;
+
 var Question = function (question, answer, correct) {
     this.question = question;
     this.answer = answer;
@@ -340,3 +342,7 @@ var questionTwo = new Question ('What position did formal Chelsea Star Didier Dr
 var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?', ['Dak Prescott','Tony Romo','Roger Staubach'],0);
 
 var setOfQuestions = [questionOne,questionTwo,questionThree];
+
+var selectRandomQuestion = function () {
+    randomNumberQuestion = Math.floor((random * 3) + 1);
+}
