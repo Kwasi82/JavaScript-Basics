@@ -326,6 +326,9 @@ console.log(fullAgeCountryNG);
 
 */
 
+///////////////////////////////////////////////////////
+// Coding Challenge
+
 var Question = function (question, answer, correct) {
     this.question = question;
     this.answer = answer;
