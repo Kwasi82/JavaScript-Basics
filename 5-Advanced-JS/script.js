@@ -251,6 +251,8 @@ newInterviewQuestion('Adwoa');
 ////////////////////////////////////////////////////////////////
 // Lecture: Bind, call and apply
 
+/*
+
 var kwasi = {
     name: 'Kwasi',
     age: 35,
@@ -321,3 +323,5 @@ var fullAgeCountryNG = arrayCalc(ages, isFullAge.bind(this, 20));
 
 console.log(ages);
 console.log(fullAgeCountryNG);
+
+*/
