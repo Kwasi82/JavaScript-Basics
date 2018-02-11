@@ -370,7 +370,7 @@ function Question(question, answers, correct) {
 
 // Create a prototype method
 
-Question.prototype.displayQuestion() = function() {
+Question.prototype.displayQuestion = function() {
     console.log(this.question);
 
     for (var i = 0; i < this.answers.length; i++) {
