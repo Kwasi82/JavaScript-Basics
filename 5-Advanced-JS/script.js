@@ -407,3 +407,7 @@ setOfQuestions[x].displayQuestion();
 // This generates a prompt to give the user a request for their answer
 
 var answer = parseInt(prompt('Please select the correct answer.'));
+
+// Make a call to check the answer recieved in the prompt from the user
+
+question[x].checkAnswer(answer);
