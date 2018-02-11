@@ -368,6 +368,16 @@ function Question(question, answers, correct) {
     this.correct = correct;     
 }
 
+// Create a prototype method
+
+Question.prototype.displayQuestion() = function() {
+    console.log(this.question);
+
+    for (var i = 0; i < this.answers.length; i++) {
+        console.log(i + ': ' + this.answers[i]);
+    }
+}
+
 // Add questions based on Question constructor function
 
 var questionOne = new Question ('Which avenger is from Wakanda?', ['0: Captain America','1: Winter Soldier','2: Black Panther'],2);
@@ -381,3 +391,5 @@ var setOfQuestions = [questionOne,questionTwo,questionThree];
 //Generate a random number
 
 var x = Math.floor(Math.random() * setOfQuestions.length);
+
+setOfQuestions[x].displayQuestion();
