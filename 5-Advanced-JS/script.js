@@ -336,7 +336,7 @@ var randomNumberQuestion;
 var Question = function (question, answer, correct) {
     this.question = question;
     this.answer = answer;
-    this.correct = correct
+    this.correct = correct;
     console.log(question + answer);
     var giveAnswer = Number(prompt('What is your answer?'));
     if (giveAnswer === this.correct) {
@@ -360,3 +360,10 @@ var selectRandomQuestion = function () {
 
 selectRandomQuestion();
 */
+
+// Create a function constructor.
+function Question(question, answers, correct) {
+    this.question = question;
+    this.answers = answers;
+    this.correct = correct;     
+}
