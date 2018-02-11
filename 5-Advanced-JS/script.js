@@ -329,6 +329,8 @@ console.log(fullAgeCountryNG);
 ///////////////////////////////////////////////////////
 // Coding Challenge
 
+// My attempt at challenge
+/*
 var randomNumberQuestion;
 
 var Question = function (question, answer, correct) {
@@ -352,12 +354,9 @@ var setOfQuestions = [questionOne,questionTwo,questionThree];
 
 var selectRandomQuestion = function () {
     randomNumberQuestion = Math.floor((Math.random() * 3) + 1);
-    Question(selectRandomQuestion[randomNumberQuestion[0]],selectRandomQuestion[randomNumberQuestion[1]],selectRandomQuestion[randomNumberQuestion[2]]);
+    Question(randomNumberQuestion[0],randomNumberQuestion[1],randomNumberQuestion[2]);
 }
-/*
+
+
 selectRandomQuestion();
-console.log(randomNumberQuestion);
 */
-
-selectRandomQuestion();
-
