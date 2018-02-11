@@ -377,3 +377,7 @@ var questionThree = new Question ('Who is the current quarterback for the Dalles
 // Add questions into an array
 
 var setOfQuestions = [questionOne,questionTwo,questionThree];
+
+//Generate a random number
+
+var x = Math.floor(Math.random() * setOfQuestions.length);
