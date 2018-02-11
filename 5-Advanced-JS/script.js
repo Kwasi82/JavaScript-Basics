@@ -368,13 +368,23 @@ function Question(question, answers, correct) {
     this.correct = correct;     
 }
 
-// Create a prototype method
+// Create a prototype method for displaying the question and their related answers
 
 Question.prototype.displayQuestion = function() {
     console.log(this.question);
 
     for (var i = 0; i < this.answers.length; i++) {
         console.log(i + ': ' + this.answers[i]);
+    }
+}
+
+// Create a prototype method for displaying whether the answer is correct or wrong
+
+Question.prototype.checkAnswer = function(ans) {
+    if (ans === this.correct) {
+        console.log("Yes! Your are correct!");
+    } else {
+        console.log("No. Sorry that is wrong.");
     }
 }
 
