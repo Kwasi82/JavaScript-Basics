@@ -361,53 +361,56 @@ var selectRandomQuestion = function () {
 selectRandomQuestion();
 */
 
-// Create a function constructor.
-function Question(question, answers, correct) {
-    this.question = question;
-    this.answers = answers;
-    this.correct = correct;     
-}
-
-// Create a prototype method for displaying the question and their related answers
-
-Question.prototype.displayQuestion = function() {
-    console.log(this.question);
-
-    for (var i = 0; i < this.answers.length; i++) {
-        console.log(i + ': ' + this.answers[i]);
+// Create an immediately invoked function to protect variables from other code that could be produced from another source.
+(function() {
+    // Create a function constructor.
+    function Question(question, answers, correct) {
+        this.question = question;
+        this.answers = answers;
+        this.correct = correct;     
     }
-}
 
-// Create a prototype method for displaying whether the answer is correct or wrong
+    // Create a prototype method for displaying the question and their related answers
 
-Question.prototype.checkAnswer = function(ans) {
-    if (ans === this.correct) {
-        console.log("Yes! Your are correct!");
-    } else {
-        console.log("No. Sorry that is wrong.");
+    Question.prototype.displayQuestion = function() {
+        console.log(this.question);
+
+        for (var i = 0; i < this.answers.length; i++) {
+            console.log(i + ': ' + this.answers[i]);
+        }
     }
-}
 
-// Add questions based on Question constructor function
+    // Create a prototype method for displaying whether the answer is correct or wrong
 
-var questionOne = new Question ('Which avenger is from Wakanda?', ['Captain America','Winter Soldier','Black Panther'],2);
-var questionTwo = new Question ('What position did formal Chelsea Star Didier Drogba play?', ['Striker','Midfielder\n','Goalkeeper'],0);
-var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?', ['Dak Prescott','Tony Romo','Roger Staubach'],0);
+    Question.prototype.checkAnswer = function(ans) {
+        if (ans === this.correct) {
+            console.log("Yes! Your are correct!");
+        } else {
+            console.log("No. Sorry that is wrong.");
+        }
+    }
 
-// Add questions into an array
+    // Add questions based on Question constructor function
 
-var setOfQuestions = [questionOne,questionTwo,questionThree];
+    var questionOne = new Question ('Which avenger is from Wakanda?', ['Captain America','Winter Soldier','Black Panther'],2);
+    var questionTwo = new Question ('What position did formal Chelsea Star Didier Drogba play?', ['Striker','Midfielder\n','Goalkeeper'],0);
+    var questionThree = new Question ('Who is the current quarterback for the Dalles Cowboys?', ['Dak Prescott','Tony Romo','Roger Staubach'],0);
 
-//Generate a random number
+    // Add questions into an array
 
-var x = Math.floor(Math.random() * setOfQuestions.length);
+    var setOfQuestions = [questionOne,questionTwo,questionThree];
 
-setOfQuestions[x].displayQuestion();
+    //Generate a random number
 
-// This generates a prompt to give the user a request for their answer
+    var x = Math.floor(Math.random() * setOfQuestions.length);
 
-var answer = parseInt(prompt('Please select the correct answer.'));
+    setOfQuestions[x].displayQuestion();
 
-// Make a call to check the answer recieved in the prompt from the user
+    // This generates a prompt to give the user a request for their answer
 
-setOfQuestions[x].checkAnswer(answer);
+    var answer = parseInt(prompt('Please select the correct answer.'));
+
+    // Make a call to check the answer recieved in the prompt from the user
+
+    setOfQuestions[x].checkAnswer(answer);
+})();
