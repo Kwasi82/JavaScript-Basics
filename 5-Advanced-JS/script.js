@@ -410,4 +410,4 @@ var answer = parseInt(prompt('Please select the correct answer.'));
 
 // Make a call to check the answer recieved in the prompt from the user
 
-setOfQuestion[x].checkAnswer(answer);
+setOfQuestions[x].checkAnswer(answer);
