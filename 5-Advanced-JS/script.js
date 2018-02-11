@@ -393,3 +393,7 @@ var setOfQuestions = [questionOne,questionTwo,questionThree];
 var x = Math.floor(Math.random() * setOfQuestions.length);
 
 setOfQuestions[x].displayQuestion();
+
+// This generates a prompt to give the user a request for their answer
+
+var answer = parseInt(prompt('Please select the correct answer.'));
